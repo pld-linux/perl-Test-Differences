@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Test
-%define	pnam	Differences
+%define		pdir	Test
+%define		pnam	Differences
 Summary:	Test::Differences - test strings and data structures and show differences if not ok
 Summary(pl):	Test::Differences - kontrola ³añcuchów i struktur danych z pokazywaniem ró¿nic
 Name:		perl-Test-Differences

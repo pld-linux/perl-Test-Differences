@@ -29,14 +29,14 @@ utility is just what's needed.
 %description -l pl
 Je¶li testowany kod zwraca wiele linii lub rekordów, które s±
 niepoprawne, czasem przydatny jest odpowiednik uniksowego narzêdzia
-diff. 
+diff.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}

@@ -7,7 +7,7 @@
 Summary:	Test::Differences - Test strings and data structures and show differences if not ok
 Summary(pl):	Test::Differences - kontrola ³añcuchów i struktur danych z pokazywaniem ró¿nic
 Name:		perl-Test-Differences
-Version:	0.45
+Version:	0.46
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl

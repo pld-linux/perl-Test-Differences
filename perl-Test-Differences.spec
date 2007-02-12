@@ -6,7 +6,7 @@
 %define		pdir	Test
 %define		pnam	Differences
 Summary:	Test::Differences - test strings and data structures and show differences if not ok
-Summary(pl):	Test::Differences - kontrola ³añcuchów i struktur danych z pokazywaniem ró¿nic
+Summary(pl.UTF-8):   Test::Differences - kontrola Å‚aÅ„cuchÃ³w i struktur danych z pokazywaniem rÃ³Å¼nic
 Name:		perl-Test-Differences
 Version:	0.47
 Release:	1
@@ -27,9 +27,9 @@ When the code you're testing returns multiple lines or records and
 they're just plain wrong, sometimes an equivalent to the Unix diff
 utility is just what's needed.
 
-%description -l pl
-Je¶li testowany kod zwraca wiele linii lub rekordów, które s±
-niepoprawne, czasem przydatny jest odpowiednik uniksowego narzêdzia
+%description -l pl.UTF-8
+JeÅ›li testowany kod zwraca wiele linii lub rekordÃ³w, ktÃ³re sÄ…
+niepoprawne, czasem przydatny jest odpowiednik uniksowego narzÄ™dzia
 diff.
 
 %prep

@@ -6,7 +6,7 @@
 %define		pdir	Test
 %define		pnam	Differences
 Summary:	Test::Differences - test strings and data structures and show differences if not ok
-Summary(pl.UTF-8):   Test::Differences - kontrola łańcuchów i struktur danych z pokazywaniem różnic
+Summary(pl.UTF-8):	Test::Differences - kontrola łańcuchów i struktur danych z pokazywaniem różnic
 Name:		perl-Test-Differences
 Version:	0.47
 Release:	1

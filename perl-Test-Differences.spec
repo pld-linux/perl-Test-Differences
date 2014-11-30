@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Test
 %define		pnam	Differences
+%include	/usr/lib/rpm/macros.perl
 Summary:	Test::Differences - test strings and data structures and show differences if not ok
 Summary(pl.UTF-8):	Test::Differences - kontrola łańcuchów i struktur danych z pokazywaniem różnic
 Name:		perl-Test-Differences
@@ -16,6 +16,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8728047fbd04a32ffdbbc4304d635eb1
+URL:		http://search.cpan.org/dist/Test-Differences/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}

@@ -4,7 +4,6 @@
 
 %define		pdir	Test
 %define		pnam	Differences
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::Differences - test strings and data structures and show differences if not ok
 Summary(pl.UTF-8):	Test::Differences - kontrola łańcuchów i struktur danych z pokazywaniem różnic
 Name:		perl-Test-Differences

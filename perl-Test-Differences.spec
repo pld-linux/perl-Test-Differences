@@ -7,14 +7,14 @@
 Summary:	Test::Differences - test strings and data structures and show differences if not ok
 Summary(pl.UTF-8):	Test::Differences - kontrola łańcuchów i struktur danych z pokazywaniem różnic
 Name:		perl-Test-Differences
-Version:	0.72
+Version:	0.73
 Release:	1
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	https://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	348ac35809a53290ac05cf0f18f673fa
+Source0:	https://www.cpan.org/authors/id/D/DC/DCANTRELL/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	f37e20b134227e91188718e48e6c8e86
 URL:		https://metacpan.org/dist/Test-Differences
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
